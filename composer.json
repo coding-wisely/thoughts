@@ -1,0 +1,27 @@
+{
+	"name": "coding-wisely/thoughts",
+	"description": "Random thoughts",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Vladimir Nikolic",
+			"email": "vladimir@codingwisely.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"CodingWisely\\Thoughts\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CodingWisely\\Thoughts\\Tests\\": "tests/"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.5"
+	}
+}
