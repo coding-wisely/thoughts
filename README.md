@@ -17,6 +17,8 @@ composer require coding-wisely/thoughts
 ## Usage
 
 ```php
+use CodingWisely\Thoughts\ProgrammingThoughtsFactory;
+
 $thoughts = new ProgrammingThoughtsFactory();
 
 $thought = $thoughts->getRandomThought(); // will return random thought from collection
