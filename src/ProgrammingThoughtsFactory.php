@@ -18,6 +18,24 @@ class ProgrammingThoughtsFactory
         "It is what it is because you let it be so.",
         "Programming isn't about what you know; it's about what you can figure out.",
         "The happiest moment i felt; is that moment when i realized my ability to create.",
+        "Could we can have developer acceptance criteria?",
+        "The fundamental programming rules are simple. Programs we build on top of that rules tend to introduce own rules and complexity. Looks like we build our own maze and might just get lost in it- Vladimir Nikolic, Coding Wisely",
+        "Think twice, write code once.",
+        "Tests are stories we tell the next generation of programmers on a project. ― Roy Osherove",
+        "First ubnderstand and solve the problem. Then, go code. - Vladimir Nikolic, Coding Wisely",
+        "Programming is usually taught by examples. -  Waseem Latif",
+        "Simplicity is prerequisite for reliability.",
+        "So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read.",
+        "Programming is breaking of one big impossible task into several very small possible tasks.",
+        "Life doesn't have a ctrl-z. Type wisely.",
+        "Premature optimization is the root of all evil.",
+        "Code without tests is bad code. It doesn't matter how well written it is; it doesn't matter how pretty or object-oriented or well-encapsulated it is. With tests, we can change the behavior of our code quickly and verifiably. Without them, we really don't know if our code is getting better or worse.",
+        "If you're good at the debugger it means you spent a lot of time debugging. I don't want you to be good at the debugger.",
+        "Over the past few years i've learned that code comments should be considered smells.",
+        "Programming is the art of doing one thing at a time",
+        "Share what you have learned from your bugs.",
+        "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program. -Linus Torvalds",
+
     ];
     public function __construct(array $thoughts = null)
     {
